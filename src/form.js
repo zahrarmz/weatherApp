@@ -88,6 +88,10 @@ export default function City() {
             </h4>
           </span>
         </form>
+        <p>
+          <a href="https://github.com/zahrarmz/weatherApp">Open-source code </a>
+          , by Zahra Ramezani
+        </p>
       </div>
     );
   } else {
@@ -98,6 +102,10 @@ export default function City() {
           <input placeholder="search" onChange={updatecity} type="text"></input>
           <input type="submit" value="Search"></input>
         </form>
+        <p>
+          <a href="https://github.com/zahrarmz/weatherApp">Open-source code </a>
+          , by Zahra Ramezani
+        </p>
       </div>
     );
   }
